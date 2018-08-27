@@ -15,18 +15,11 @@ let playerTwoMoveTwoValue;
 let playerTwoMoveThreeType;
 let playerTwoMoveThreeValue;
 
-const setPlayerMoves = (
-  player,
-  moveOneType,
-  moveOneValue,
-  moveTwoType,
-  moveTwoValue,
-  moveThreeType,
-  moveThreeValue
-) => {
+const setPlayerMoves = (player, m1t, m2t, m3t, m1v, m2v, m3v) => {
+  //m1t and m1v stands for move one type and move one value
   if (player === "Player One") {
-    playerOneMoveOneType = moveOneType;
-    playerOneMoveOneValue;
+    playerOneMoveOneType = m1t;
+    playerOneMoveOneValue = m1v;
   }
 };
 
