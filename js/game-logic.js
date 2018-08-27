@@ -24,14 +24,12 @@ const setPlayerMoves = (
   moveThreeType,
   moveThreeValue
 ) => {
-  if(player === 'Player One') {
-    playerOneMoveOneType = moveOneType
-    playerOneMoveOneValue
+  if (player === "Player One") {
+    playerOneMoveOneType = moveOneType;
+    playerOneMoveOneValue;
   }
 };
 
 const getRoundWinner = roundNumber => {
   //compare playerOneMove type and value with playerTwo's
-}
-
-const getGameWinner;
+};
